@@ -140,6 +140,11 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * ide helper
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         Douyasi\Providers\AppServiceProvider::class,
